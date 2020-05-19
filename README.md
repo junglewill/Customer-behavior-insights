@@ -4,7 +4,7 @@ This project was to handle datasets collected from an online clothing store to f
 
 The project description was as below:
 
-- #### Objectives  
+- #### Objective  
 Analyze the customer online behavior of a specific group of customers (by our definition) through statistics and modeling to solve the pain points and suggest marketing strategies. 
 
 - #### Problem Statement  
