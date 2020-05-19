@@ -1,6 +1,8 @@
 # Customer Behavior Insights 
 
-This project was to handle datasets collected from an online clothing store to find insights and give out marketing suggestion. The datasets we used include membership data, order data and data on customers’ online behavior over time. The programming language is Python. We used Excel and Tableau to facilitate some parts of the analysis. 
+This project was to handle datasets collected from an online clothing store to find insights and give out marketing suggestion. 
+
+The datasets we used include membership data, order data and data on customers’ online behavior over time. The programming language is Python. We used Excel and Tableau to facilitate some parts of the analysis. 
 
 The project description was as below:
 
