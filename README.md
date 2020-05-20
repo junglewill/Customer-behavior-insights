@@ -15,7 +15,7 @@ What ordering methods and online activities do New customers most frequently uti
 - #### Methodology  
   - Categorize the customers as New, Active, Potential and Losing members (NAPL model) to analyze customer loyalty
   - Re-arrange the customers’ behavioral data and their orders by customer ID and label the customer migration patterns to differentiate each customer's behavior over time (For example, a customer could shift from a New member to an Active member, etc.)
-  - Conduct descriptive statistics analysis for basic customers' portrait and RFM model to evaluate customer lifetime value, using the membership data and order data.
+  - Conduct descriptive statistics analysis to portray basic features of customers' behavior and RFM model to evaluate customer lifetime value, using the membership data and order data.
   - Extract the activities 90 days before the customer turned from a New member to an Active member from the customers' behavioral dataset.
   - Clean up the data and prepare for modeling
   - Build up models  
