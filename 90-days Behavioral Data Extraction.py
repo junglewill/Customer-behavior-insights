@@ -15,7 +15,7 @@ LPtoA_raw_data = pd.DataFrame(LPtoA_raw_data)
 NtoA_raw_data.columns = NtoA_raw_data.columns.str.replace(' ', '_')
 LPtoA_raw_data.columns = LPtoA_raw_data.columns.str.replace(' ', '_')
 
-# new_df: 去除所有online member id為nan的row
+# new_df: remove all the row with "NaN" as online member's 
 new_df = df.loc[(df['OnlineMemberId'].astype(str) != 'nan')]
 
 
@@ -40,11 +40,13 @@ result_df = result_df_list[0]
 for i in range(1, len(result_df_list)):
     result_df = result_df.append(result_df_list[i])
 
+
+# discuss only SessionNumber, TrafficSourceCategory, HitDateTime, BehaviorType, SourceType, and OnlineMemberId
 del result_df['VisitorId'],result_df['OperationSystem'],result_df['CategoryId'],result_df['SearchKeyWord'],result_df['TransactionNum'],result_df['ProductPrice'],result_df['ProductQuantity'],result_df['ProductId'],result_df['TransactionRevenue']
 
 result_df.to_excel("N to A behavior.xlsx")
 
-
+# extract the LP-A group of cutomer data
 memberId = LPtoA_raw_data['Online_Member_Id']
 memberId = memberId.reset_index()
 del memberId['index']
