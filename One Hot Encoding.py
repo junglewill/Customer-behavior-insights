@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# prepare the data for decision tree model and logistic regression model
 NtoA_behavior_raw_data = pd.read_excel('N to A behavior.xlsx')
 LPtoA_behavior_raw_data = pd.read_excel('LP to A behavior.xlsx')
 del NtoA_behavior_raw_data['HitDateTime'], NtoA_behavior_raw_data['OnlineMemberId']
